@@ -1,7 +1,8 @@
-class Dog(name)
-  def name(name)
+class Dog
+  def name=
     @name = name
   end
-  def name=
+  def name
+    @name
   end
 end
